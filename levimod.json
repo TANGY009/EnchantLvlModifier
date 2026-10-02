@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "id": "enchantlvlmodifier",
+  "version": "1.0.0",
+  "minecraft_versions": [
+    ">=1.21.130.3"
+  ],
+  "info": {
+    "name": "EnchantLvlModifier",
+    "author": "TANGY009",
+    "description": "Customize the minimum and maximum level of each enchantment",
+    "homepage_url": "https://github.com/TANGY009/EnchantLvlModifier",
+    "icon": "icon.png",
+    "tags": [
+      "Customizability",
+      "Utility"
+    ]
+  },
+  "release_assets": {
+    "include": [
+      "*.levipack"
+    ],
+    "labels": {
+      "EnchantLvlModifier.levipack": "LeviPack"
+    }
+  }
+}
