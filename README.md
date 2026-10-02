@@ -30,7 +30,7 @@ A Minecraft Bedrock mod that grants you the power to customize the minimum and m
 - For example, if you set **Unbreaking minLevel** to **5** and **maxLevel** to **10**, the enchantment can only be **generated between levels 5 and 10**
 - This means **level 5** is the **lowest possible Unbreaking level**. Enchanting tables, villager trades, and loot chests will therefore **not generate Unbreaking 1–4**; the lowest level they can give is Unbreaking 5
 ---
-- The enchanting table can also give these custom-level enchantments
+- The enchanting table can also give these custom-level enchantments upto level 5
 
 - Villagers have a chance to sell these custom-level enchantments
 
