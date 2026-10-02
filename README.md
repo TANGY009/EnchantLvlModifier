@@ -16,7 +16,14 @@ A Minecraft Bedrock mod that grants you the power to customize the minimum and m
 - Negative-level enchantments also cannot be applied using in-game tools
 
 ## Features
-
+- For each level within an enchantment's configured minLevel and maxLevel, a corresponding enchanted book is added to the Creative inventory
+- For example, if you set Unbreaking minLevel to 1 and maxLevel to 5, the Creative inventory will contain Unbreaking I, II, III, IV, and V enchanted books
+- Likewise, if you set Efficiency minLevel to 5 and maxLevel to 10, the Creative inventory will contain Efficiency V, VI, VII, VIII, IX, and X enchanted books
+> [!WARNING]
+> Setting a very large level range will register a large number of enchanted books for that enchantment
+> 
+> This can increase the time it takes for the **Creative inventory to load**
+---
 - For example, if you set **Fortune maxLevel** to **5**, you will be able to do Fortune 3 + Fortune 3 = Fortune 4 and Fortune 4 + Fortune 4 = Fortune 5
 - But doing 5 + 5 will not give you 6 until you raise Fortune maxLevel from 5 to 6
 ---
